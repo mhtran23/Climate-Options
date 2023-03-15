@@ -1,15 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 using Nova;
 
 public class NovaUIBehavior : MonoBehaviour
 {
     public void DisableNovaInteractableClickBehavior(GameObject gameObject)
     {
-        Interactable interactable = gameObject.GetComponent<Interactable>();
+        Nova.Interactable interactable = gameObject.GetComponent<Interactable>();
 
         if (interactable != null)
         {
@@ -17,12 +13,12 @@ public class NovaUIBehavior : MonoBehaviour
         }
     }
 
-    public void ToggleBorderVisibility(UIBlock2D uIBlock2D)
+    public void ToggleBorderVisibility(Nova.UIBlock2D uIBlock2D)
     {
         uIBlock2D.Border.Enabled = !uIBlock2D.Border.Enabled;
     }
 
-    public void BorderVisibility(UIBlock2D uIBlock2D, bool value)
+    public void BorderVisibility(Nova.UIBlock2D uIBlock2D, bool value)
     {
         uIBlock2D.Border.Enabled = value;
     }

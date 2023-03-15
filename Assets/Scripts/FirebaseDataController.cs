@@ -1,16 +1,10 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Net;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase.Database;
-using Google.MiniJSON;
 using Newtonsoft.Json;
-using Unity.VisualScripting;
-using UnityEditor.VersionControl;
 using UnityEngine;
-using UnityEngine.Rendering.VirtualTexturing;
 
 public class FirebaseDataController : MonoBehaviour
 {

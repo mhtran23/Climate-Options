@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Firebase.Auth;
 using TMPro;
 using System;
 using System.Text.RegularExpressions;
 using System.Globalization;
-using Firebase;
-using UnityEngine.UI;
 using Firebase.Extensions;
 
 public class AuthController : MonoBehaviour

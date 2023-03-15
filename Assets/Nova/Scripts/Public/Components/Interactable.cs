@@ -1,5 +1,3 @@
-
-using Nova.Compat;
 using Nova.InternalNamespace_16;
 using Nova.InternalNamespace_25;
 using Nova.InternalNamespace_0;

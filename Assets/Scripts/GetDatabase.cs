@@ -1,13 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using Nova;
-using System.IO;
-using UnityEngine.WSA;
-using static UnityEditor.UIElements.ToolbarMenu;
-using Unity.VisualScripting;
 
 public class GetDatabase : MonoBehaviour
 {

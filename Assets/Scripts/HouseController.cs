@@ -1,11 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using Nova;
-using System.IO;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 namespace NovaSamples.UIControls
 {

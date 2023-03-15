@@ -1,10 +1,9 @@
-using Nova;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
 namespace Nova.InternalNamespace_17.InternalNamespace_18
-{ 
+{
     internal abstract class InternalType_191<T79> : InternalType_539<T79> where T79 : GestureRecognizer
     {
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
